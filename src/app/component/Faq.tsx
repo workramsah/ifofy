@@ -8,9 +8,9 @@ import {
 export default function Faq() {
     return (
         <>
-            <div className="flex flex-col items-center  justify-center">
-                <h1 className="font-bold text-[30px] ">Frequently Asked Questions</h1>
-                <div className="w-[624px] ">
+            <div className="flex flex-col items-center  justify-center  ">
+                <h1 className="font-bold text-[30px]  ">Frequently Asked Questions</h1>
+                <div className="w-[624px]  h-[450px] ">
                     <Accordion
                         type="single"
                         collapsible

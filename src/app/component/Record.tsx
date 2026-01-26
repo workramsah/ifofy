@@ -8,24 +8,22 @@ import {
 import { BiSolidSelectMultiple } from "react-icons/bi";
 import { CiCalculator1 } from "react-icons/ci";
 import { FiTag } from "react-icons/fi";
+import Offer from "./Offer";
 
-export default function Record(){
-    return(
+export default function Record() {
+    return (
         <>
-       <div>
+            <div>
                 <div className="flex justify-center items-center space-x-[58px]">
                     <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-[562px] h-[424px] rounded-3xl">
 
-                        {/* first image */}
-                        <img
-                            src="/laptop.png"
-                            className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"
-                            alt="laptop small"
-                        />
 
-                        {/* second image */}
+                        <div className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"><Offer /></div>
+
+
+
                         <img
-                            src="/laptop.png"
+                            src="/sw.png"
                             className="absolute w-[319px] h-[256.43px] top-[120px] left-[247px] rounded-t-2xl"
                             alt="laptop big"
                         />
@@ -33,7 +31,7 @@ export default function Record(){
                     </div>
                     <div>
                         <div><span className="font-extrabold text-[36px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold text-[36px] text-[rgba(9,30,67,1)]">report</span></div>
-                        <div>
+                        <div className="w-[564px] h-[82px]">
                             <Accordion
                                 type="single"
                                 collapsible
@@ -64,7 +62,7 @@ export default function Record(){
                             </Accordion>
                         </div>
                     </div>
-                    
+
 
                 </div>
                 <div>

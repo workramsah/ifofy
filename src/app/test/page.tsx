@@ -1,12 +1,11 @@
-import Anna from "../component/Anna";
-import Create from "../component/Create";
-import Plan from "../component/Plan";
-import Record from "../component/Send";
+
+import Offer from "../component/Offer";
+
 
 export default function (){
     return(
         <>
-        <Plan/>
+        <Offer/>
         </>
     )
 }

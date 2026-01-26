@@ -7,6 +7,7 @@ import {
 import { TiTick } from "react-icons/ti";
 import { BiSelectMultiple } from "react-icons/bi";
 import { LuMessagesSquare } from "react-icons/lu";
+import Offer from "./Offer";
 
 export default function Send() {
     return (
@@ -15,7 +16,7 @@ export default function Send() {
                 <div className="flex justify-center items-center space-x-[58px]">
                     <div>
                         <div><span className="font-extrabold text-[36px] text-[rgba(248,101,23,1)]">Send</span> <span className="font-extrabold text-[36px] text-[rgba(9,30,67,1)]">Broadcast Message</span></div>
-                        <div>
+                        <div className="w-[564px] h-[82px]">
                             <Accordion
                                 type="single"
                                 collapsible
@@ -48,16 +49,13 @@ export default function Send() {
                     </div>
                     <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-[562px] h-[424px] rounded-3xl">
 
-                        {/* first image */}
-                        <img
-                            src="/laptop.png"
-                            className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"
-                            alt="laptop small"
-                        />
+                        
+                        <div  className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"><Offer/></div>
+                       
 
-                        {/* second image */}
+                        
                         <img
-                            src="/laptop.png"
+                            src="/sw.png"
                             className="absolute w-[319px] h-[256.43px] top-[120px] left-[247px] rounded-t-2xl"
                             alt="laptop big"
                         />

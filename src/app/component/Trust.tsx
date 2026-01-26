@@ -9,7 +9,7 @@ export default function Trust() {
                 </div>
                 <div className="flex flex-col items-center space-y-[32px]">
                     <h1 className="text-[20px] text-[rgba(112,124,140,1)] text-center">Take chat orders & payments online <br/> Fewer mistakes, faster deals</h1>
-                    <button className="w-[337px] h-[65px] text-white bg-[rgba(248,101,23,1)] rounded-full">Start for free</button>
+                    <button className="w-[337px] h-[65px] text-white bg-[rgba(248,101,23,1)] rounded-full shadow-2xl">Start for free</button>
                 </div>
             </div>
         </>
