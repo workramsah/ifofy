@@ -1,7 +1,6 @@
-import Image from "next/image";
+
 import Nav from "./component/Nav";
 import Trust from "./component/Trust";
-import Mobile from "./test/page";
 import Create from "./component/Create";
 import What from "./component/What";
 import Pricing from "./component/Pricing";
@@ -23,10 +22,10 @@ export default function Page() {
       <div className="mt-[104px]"><Trust /></div>
       <div className="mt-[29px]"><Group /></div>
       
-      <div className="mt-[29px]"> <Create /></div>
+      <div className="mt-[29px]"><Create /></div>
       <div className="mt-[29px]"><Record /></div>
-      <div className="mt-[29px]"> <Send /></div>
-      <div className="mt-[29px]"> <Made /></div>
+      <div className="mt-[29px]"><Send /></div>
+      <div className="mt-[29px]"><Made /></div>
       <div className="mt-[100px]"><What /></div>
       <div><Pricing /></div>
       <div><Make /></div>

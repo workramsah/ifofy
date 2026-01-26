@@ -14,8 +14,8 @@ export default function Record() {
     return (
         <>
             <div>
-                <div className="flex justify-center items-center space-x-[58px]">
-                    <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-[562px] h-[424px] rounded-3xl">
+                <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px]">
+                    <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] md:w-[562px] md:h-[424px] rounded-3xl">
 
 
                         <div className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"><Offer /></div>
@@ -31,7 +31,7 @@ export default function Record() {
                     </div>
                     <div>
                         <div><span className="font-extrabold text-[36px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold text-[36px] text-[rgba(9,30,67,1)]">report</span></div>
-                        <div className="w-[564px] h-[82px]">
+                        <div className="md:w-[564px] md:h-[82px]">
                             <Accordion
                                 type="single"
                                 collapsible
@@ -65,11 +65,7 @@ export default function Record() {
 
 
                 </div>
-                <div>
-
-
-                </div>
-
+            
             </div>
         </>
     )

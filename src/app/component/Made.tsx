@@ -21,7 +21,7 @@ export default function Made() {
                 </div>
 
 
-                <div className="flex space-x-[107px]">
+                <div className="md:flex space-x-[107px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     <div className="space-y-[60px]">
                         <div className="flex items-center space-x-2 w-[332.31px]">
                             <FaLocationArrow className="text-[rgba(229,111,30,1)] w-[27.79px] h-[27.79px]" />

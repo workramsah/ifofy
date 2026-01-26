@@ -9,12 +9,12 @@ export default function Footer() {
     return (
         <>
             <div className="bg-[rgba(28,15,95,1)] mt-[20px] md:py-12 md:px-16">
-                <div className="flex justify-between">
-                    <div className="w-[502px] h-[224px] space-y-4">
+                <div className="md:flex justify-between">
+                    <div className="md:w-[502px] md:h-[224px] space-y-4">
                         <h1 className="text-[16px] font-medium text-[rgba(160,160,160,1)]">IFOFY was built for the reality most businesses live in: sales move fast, customers message at odd hours, and paperwork always arrives late. Owners and teams spend too much time chasing invoices, updating ledgers, and digging through bills—work that doesn’t grow revenue, but still decides whether cash flow stays healthy.</h1>
                         <h1 className="text-[16px] font-medium text-[rgba(160,160,160,1)]">We saw a simple truth: businesses don’t need more software tabs. They need a faster way to turn everyday conversations and proof of purchase into clean, trackable finances operations.</h1>
                     </div>
-                    <div className="flex space-x-[64px] ">
+                    <div className="md:flex space-x-[64px] grid grid-cols-2">
                         <div className="space-y-[18px]">
                             <h1 className="font-extrabold text-[23.4px] text-white">Company</h1>
                             <div className="space-y-[18px]">
@@ -44,8 +44,8 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="space-x-[176px] flex mt-4 justify-between items-center">
-                    <h1 className="text-[64px] leading-[80px] text-white font-extrabold">ifofy.com</h1>
+                <div className="space-x-[176px] md:flex mt-4 justify-between items-center">
+                    <img src="logo.png" alt="ifofy.com" className=" md:h-[163px] h-[80px] object-cover"/>
                     <div>
                         <div className="space-x-5 flex text-[20px] text-white "><AiFillYoutube /> <FaFacebook /> <FaPinterest /> <TbBrandInstagramFilled /> <FaXTwitter /> <ImLinkedin /> <FaTiktok /></div>
                         <h1 className="text-[13.6px] text-[rgba(160,160,160,1)]">Copyright 2026 © ifofy. All rights reserved.</h1>
