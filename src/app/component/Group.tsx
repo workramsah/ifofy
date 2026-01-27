@@ -1,17 +1,21 @@
+import Customer from "./Customer";
 import Mobile from "./Mobile";
+import Offer from "./Offer";
+import Total from "./Total";
 
 export default function Group() {
     return (
         <>
-            <div className="flex space-x-[81px] justify-center items-center">
-                <div className="flex flex-col space-y-3 items-end">
-                    <img src="laptop.png" alt="laptop" className="w-[176px] h-[178.44px] " />
-                    <img src="ss.png" alt="laptop" className="w-[319px] h-[256px] object-cover" />
+             <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-x-[81px]">
+                <div className="flex flex-col space-y-3 items-center md:items-end">
+                    <Offer/>
+                    <img src="ss.png" alt="laptop" className="w-[319px] h-[256px] object-cover flex items-center justify-center " />
                 </div>
-                <Mobile/>
-                <div className="space-y-3">
-                    <img src="laptop.png" alt="laptop" className="w-[176px] h-[178.44px] " />
-                    <img src="ss.png" alt="laptop" className="w-[319px] h-[256px] object-cover" />
+                <div> <Mobile /></div>
+                
+                <div className=" flex flex-col space-y-3 md:items-start items-center">
+                    <Customer/>
+                    <Total/>
                 </div>
             </div>
         </>

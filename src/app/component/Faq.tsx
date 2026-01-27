@@ -9,7 +9,7 @@ export default function Faq() {
     return (
         <>
             <div className="flex flex-col items-center  justify-center  ">
-                <h1 className="font-bold md:text-[30px]  ">Frequently Asked Questions</h1>
+                <h1 className="font-bold md:text-[36px] text-[28px]  ">Frequently Asked Questions</h1>
                 <div className="md:w-[624px]  md:h-[450px] ">
                     <Accordion
                         type="single"

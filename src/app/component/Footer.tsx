@@ -15,27 +15,27 @@ export default function Footer() {
                         <h1 className="text-[16px] font-medium text-[rgba(160,160,160,1)]">We saw a simple truth: businesses don’t need more software tabs. They need a faster way to turn everyday conversations and proof of purchase into clean, trackable finances operations.</h1>
                     </div>
                     <div className="md:flex space-x-[64px] grid grid-cols-2">
-                        <div className="space-y-[18px]">
+                        <div className="md:space-y-[18px] space-[10px]">
                             <h1 className="font-extrabold text-[23.4px] text-white">Company</h1>
-                            <div className="space-y-[18px]">
+                            <div className="md:space-y-[18px] space-[10px]">
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">About us</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Careers</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Press</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Newsletter</h1>
                             </div>
                         </div>
-                        <div className="space-y-[18px]">
+                        <div className="md:space-y-[18px] space-[10px]">
                             <h1 className="font-extrabold text-[23.4px] text-white">Suppport</h1>
-                            <div className="space-y-[18px]">
+                            <div className="md:space-y-[18px] space-[10px]">
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Help Center</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Blog</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Pricing</h1>
                                 
                             </div>
                         </div>
-                        <div className="space-y-[18px]">
+                        <div className="md:space-y-[18px] space-[10px]">
                             <h1 className="font-extrabold text-[23.4px] text-white">Privacy</h1>
-                            <div className="space-y-[18px]">
+                            <div className="md:space-y-[18px] space-[10px]">
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Privacy Policy</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Terms of Use</h1>
                                 <h1 className="text-[18.1px] text-[rgba(160,160,160,1)]">Cookies Policy</h1>

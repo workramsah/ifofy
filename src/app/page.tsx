@@ -13,13 +13,14 @@ import Record from "./component/Record";
 import Group from "./component/Group";
 
 
+
 export default function Page() {
   return (
     <>
 
       <div className="mt-[29px]"><Nav /></div>
 
-      <div className="mt-[104px]"><Trust /></div>
+      <div className="md:mt-[104px] mt-[50px]"><Trust /></div>
       <div className="mt-[29px]"><Group /></div>
       
       <div className="mt-[29px]"><Create /></div>

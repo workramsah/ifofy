@@ -13,10 +13,10 @@ export default function Send() {
     return (
         <>
             <div>
-                <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px]">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-y-8 md:space-x-[58px]">
                     <div>
-                        <div><span className="font-extrabold text-[36px] text-[rgba(248,101,23,1)]">Send</span> <span className="font-extrabold text-[36px] text-[rgba(9,30,67,1)]">Broadcast Message</span></div>
-                        <div className="md:w-[564px] md:h-[82px]">
+                        <div><span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(248,101,23,1)]">Send</span> <span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(9,30,67,1)]">Broadcast Message</span></div>
+                        <div className="w-[300px] h-[220px] md:w-[564px]">
                             <Accordion
                                 type="single"
                                 collapsible
@@ -47,16 +47,15 @@ export default function Send() {
                             </Accordion>
                         </div>
                     </div>
-                    <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] md:w-[562px] md:h-[424px] rounded-3xl">
+                    <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-full min-h-[424px] md:w-[562px] md:h-[424px] rounded-3xl flex flex-col items-center justify-center p-4">
 
                         
-                        <div  className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"><Offer/></div>
+                        <div  className="w-full max-w-xs p-4"><Offer/></div>
                        
 
-                        
                         <img
                             src="/sw.png"
-                            className="absolute w-[319px] h-[256.43px] top-[120px] left-[247px] rounded-t-2xl"
+                            className="hidden md:block w-[319px] h-[256.43px] absolute top-[120px] left-[247px] rounded-t-2xl"
                             alt="laptop big"
                         />
 

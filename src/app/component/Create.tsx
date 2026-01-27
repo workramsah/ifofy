@@ -16,10 +16,10 @@ export default function Create() {
     return (
         <>
             
-                <div className="flex flex-col md:flex-row justify-center space-x-[58px]">
+                <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px] gap-y-10">
                     <div>
-                        <div><span className="font-extrabold text-[36px] text-[rgba(248,101,23,1)]">Create</span> <span className="font-extrabold text-[36px] text-[rgba(9,30,67,1)]">Clean invoice</span></div>
-                        <div className="md:w-[564px] md:h-[82px]">
+                        <div><span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(248,101,23,1)]">Create</span> <span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(9,30,67,1)]">Clean invoice</span></div>
+                        <div className="md:w-[564px] md:h-[82px] w-[300px] h-[200px]">
                             <Accordion
                                 type="single"
                                 collapsible
@@ -50,7 +50,7 @@ export default function Create() {
                             </Accordion>
                         </div>
                     </div>
-                    <div className="  bg-[rgba(28,15,95,1)] md:w-[562px] md:h-[424px] rounded-3xl">
+                    <div className="  bg-[rgba(28,15,95,1)] md:w-[562px] h-[210px] md:h-[424px] rounded-3xl">
                         <div className=" bg-[rgba(255,255,255,1)] w-[262px] h-[161px] flex flex-col justify-evenly rounded-2xl pl-[16px] ml-[46px] ] mt-[60px] ">
                             <h1 className="text-[rgba(32,34,36,1)]">Total today sale</h1>
                             <h1 className="text-[28px] font-semibold">NRS. 40,689</h1>

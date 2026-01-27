@@ -6,7 +6,7 @@ export default function Nav(){
 
     return(
       <>
-     <div className="flex justify-between items-center px-4 md:px-[200px] py-4">
+     <div className="relative flex justify-between items-center px-4 md:px-[200px] py-4">
         <img src="navimg.png" className="w-[131px] h-[29px]"></img>
         <div className="hidden md:flex space-x-6 text-[16px]">
           <h1>Features</h1>
@@ -28,7 +28,7 @@ export default function Nav(){
       </div>
 
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-4 py-4 bg-gray-100 overflow-auto">
+        <div className="md:hidden w-full absolute flex flex-col items-center space-y-4 py-4 bg-gray-100 overflow-auto">
           <h1>Features</h1>
           <h1>pricing</h1>
           <h1>Resource</h1>

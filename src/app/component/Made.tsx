@@ -12,17 +12,17 @@ import { VscDiffMultiple } from "react-icons/vsc";
 export default function Made() {
     return (
         <>
-            <div className="flex flex-col justify-center items-center space-y-[80px]">
+            <div className="flex flex-col justify-center items-center md:space-y-[80px] space-y-[35px]">
                 <div>
-                    <h1 className="font-extrabold text-[36px] text-center">Made to solve everyday <br /> invoice problems</h1>
+                    <h1 className="font-extrabold md:text-[36px] text-[28px] text-center">Made to solve everyday <br /> invoice problems</h1>
                     <h1 className="text-center">Explore powerful features designed to easily know your <br />
                         sale and to save time, money,<br />
                         and effort .</h1>
                 </div>
 
 
-                <div className="md:flex space-x-[107px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                    <div className="space-y-[60px]">
+                <div className="md:flex space-x-[107px] space-y-[30px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div className="md:space-y-[60px] space-y-[25px]">
                         <div className="flex items-center space-x-2 w-[332.31px]">
                             <FaLocationArrow className="text-[rgba(229,111,30,1)] w-[27.79px] h-[27.79px]" />
                             <div>
@@ -45,7 +45,7 @@ export default function Made() {
                             </div>
                         </div>
                     </div>
-                    <div className="space-y-[60px]">
+                    <div className="md:space-y-[60px] space-y-[25px]">
                         <div className="flex items-center space-x-2 w-[332.31px]">
                             <FaLocationArrow className="text-[rgba(229,111,30,1)] w-[27.79px] h-[27.79px]" />
                             <div>
@@ -69,7 +69,7 @@ export default function Made() {
                             </div>
                         </div>
                     </div>
-                    <div className="space-y-[60px]">
+                    <div className="md:space-y-[60px] space-y-[25px]">
                         <div className="flex items-center space-x-2 w-[332.31px]">
                             <CiBoxList className="text-[rgba(229,111,30,1)] w-[27.79px] h-[27.79px]" />
                             <div>

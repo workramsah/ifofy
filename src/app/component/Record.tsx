@@ -30,8 +30,8 @@ export default function Record() {
 
                     </div>
                     <div>
-                        <div><span className="font-extrabold text-[36px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold text-[36px] text-[rgba(9,30,67,1)]">report</span></div>
-                        <div className="md:w-[564px] md:h-[82px]">
+                        <div><span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(9,30,67,1)]">report</span></div>
+                        <div className="md:w-[564px] md:h-[82px] h-[220px] w-[300px]">
                             <Accordion
                                 type="single"
                                 collapsible
