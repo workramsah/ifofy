@@ -8,7 +8,7 @@ import { FaTiktok } from "react-icons/fa";
 export default function Footer() {
     return (
         <>
-            <div className="bg-[rgba(28,15,95,1)] mt-[20px] md:py-12 md:px-16">
+            <div className="bg-[rgba(28,15,95,1)] mt-[20px] md:py-12 md:px-16 p-2">
                 <div className="md:flex justify-between">
                     <div className="md:w-[502px] md:h-[224px] space-y-4">
                         <h1 className="text-[16px] font-medium text-[rgba(160,160,160,1)]">IFOFY was built for the reality most businesses live in: sales move fast, customers message at odd hours, and paperwork always arrives late. Owners and teams spend too much time chasing invoices, updating ledgers, and digging through bills—work that doesn’t grow revenue, but still decides whether cash flow stays healthy.</h1>
@@ -45,7 +45,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="space-x-[176px] md:flex mt-4 justify-between items-center">
-                    <img src="logo.png" alt="ifofy.com" className=" md:h-[163px] h-[80px] object-cover"/>
+                    <img src="logo.png" alt="ifofy.com" className=" md:h-[163px] h-[70px]  object-cover"/>
                     <div>
                         <div className="space-x-5 flex text-[20px] text-white "><AiFillYoutube /> <FaFacebook /> <FaPinterest /> <TbBrandInstagramFilled /> <FaXTwitter /> <ImLinkedin /> <FaTiktok /></div>
                         <h1 className="text-[13.6px] text-[rgba(160,160,160,1)]">Copyright 2026 © ifofy. All rights reserved.</h1>
