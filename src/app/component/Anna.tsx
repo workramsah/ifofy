@@ -10,7 +10,7 @@ export default function Anna() {
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-evenly">
+                <div className="flex flex-col justify-evenly space-y-4">
                     <h1 className="font-medium text-[20.3px]">Nepal Plus</h1>
                     <h1 className="text-[15.6px]">
                         “I’ve been using ifofy, and it<br />

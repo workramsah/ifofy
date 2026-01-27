@@ -10,7 +10,7 @@ export default function Faq() {
         <>
             <div className="flex flex-col items-center  justify-center  ">
                 <h1 className="font-bold md:text-[36px] text-[20px]  ">Frequently Asked Questions</h1>
-                <div className="md:w-[624px]  md:h-[450px] p-2">
+                <div className="md:w-[624px]  md:h-[450px] h-[365px] p-2">
                     <Accordion
                         type="single"
                         collapsible
