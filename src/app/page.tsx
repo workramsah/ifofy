@@ -32,11 +32,6 @@ export default function Page() {
       <div><Make /></div>
       <div><Faq /></div>
       <div><Footer /></div>
-      
-     
-      
-
-
     </>
   )
 }
