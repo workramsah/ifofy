@@ -21,7 +21,7 @@ export default function Page() {
       <div className="mt-[29px]"><Nav /></div>
 
       <div className="md:mt-[104px] mt-[50px]"><Trust /></div>
-      <div className="mt-[29px]"><Group /></div>
+      <div className="mt-[50px]"><Group /></div>
       
       <div className="mt-[29px]"><Create /></div>
       <div className="mt-[29px]"><Record /></div>
@@ -30,7 +30,7 @@ export default function Page() {
       <div className="mt-[100px]"><What /></div>
       <div><Pricing /></div>
       <div><Make /></div>
-      <div><Faq /></div>
+      <div className="mt-[29px]"><Faq /></div>
       <div><Footer /></div>
     </>
   )
