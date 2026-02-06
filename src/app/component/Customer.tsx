@@ -3,7 +3,7 @@ import { GoDotFill } from "react-icons/go";
 export default function Customer() {
     return (
         <>
-            <div className="border-2 rounded-2xl w-[174px] h-[177.22px] px-[11.65px] pt-[]">
+            <div className=" rounded-2xl w-[174px] h-[177.22px] px-[11.65px] pt-[] shadow-[2.93px_2.93px_26.4px_rgba(0,0,0,0.05)] hover:shadow-[3px_3px_30px_rgba(0,0,0,0.08)]">
                 <h1 className="text-[10.66px] font-semibold">Customers</h1>
                 <div className="flex flex-col items-center justify-evenly space-y-[19px]">
                     <div className="text-[70.89px] text-[rgba(72,128,255,1)]"><TbCircleDotted /></div>
