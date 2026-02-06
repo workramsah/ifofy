@@ -14,20 +14,31 @@ export default function Record() {
     return (
         <>
             <div>
-                <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px]">
-                    <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] md:w-[562px] md:h-[424px] rounded-3xl">
+                <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px] ml-12 md:ml-0  ">
+                <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-full md:w-[562px] h-auto md:h-[424px] rounded-2xl md:rounded-3xl  md:p-0 flex flex-col md:block items-center justify-center md:justify-start ">
+                        {/* Mobile: Vertical Layout - Completely Separate */}
+                        <div className="flex flex-col md:hidden items-center justify-center w-full py-6 px-4">
+                            <div className="mb-8 shrink-0 w-[120px] h-[122px] overflow-hidden flex items-center justify-center">
+                                <div className="scale-[0.68]">
+                                    <Offer />
+                                </div>
+                            </div>
+                            <img
+                                src="/sw.png"
+                                className="w-[160px] h-[128px] rounded-t-2xl object-contain shrink-0"
+                                alt="laptop big"
+                            />
+                        </div>
 
-
-                        <div className="w-[176px] h-[178.44px] ml-[45px] mt-[39px]"><Offer /></div>
-
-
-
+                        {/* Desktop: Original Layout */}
+                        <div className="hidden md:block w-[176px] h-[178.44px] ml-[45px] mt-[39px]">
+                            <Offer />
+                        </div>
                         <img
                             src="/sw.png"
-                            className="absolute w-[319px] h-[256.43px] top-[120px] left-[247px] rounded-t-2xl"
+                            className="hidden md:block absolute w-[319px] h-[256.43px] top-[120px] left-[247px] rounded-t-2xl"
                             alt="laptop big"
                         />
-
                     </div>
                     <div>
                         <div><span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(9,30,67,1)]">report</span></div>
