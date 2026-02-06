@@ -137,3 +137,24 @@
     opacity: 1;
   }
 }
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes scrollVertical {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(calc(-100% + 375px));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
