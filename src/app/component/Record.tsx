@@ -14,8 +14,8 @@ export default function Record() {
     return (
         <>
             <div>
-                <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px] ml-12 md:ml-0  ">
-                <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-full md:w-[562px] h-auto md:h-[424px] rounded-2xl md:rounded-3xl  md:p-0 flex flex-col md:block items-center justify-center md:justify-start ">
+                <div className="flex flex-col md:flex-row justify-center items-center gap-y-10 md:space-x-[58px] px-4 md:px-0">
+                    <div className="relative overflow-hidden bg-[rgba(83,180,255,1)] w-full md:w-[562px] h-auto md:h-[424px] rounded-2xl md:rounded-3xl  md:p-0 flex flex-col md:block items-center justify-center md:justify-start ">
                         {/* Mobile: Vertical Layout - Completely Separate */}
                         <div className="flex flex-col md:hidden items-center justify-center w-full py-6 px-4">
                             <div className="mb-8 shrink-0 w-[120px] h-[122px] overflow-hidden flex items-center justify-center">
@@ -40,14 +40,14 @@ export default function Record() {
                             alt="laptop big"
                         />
                     </div>
-                    <div>
-                        <div><span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(9,30,67,1)]">report</span></div>
-                        <div className="md:w-[564px] md:h-[82px] h-[220px] w-[300px]">
+                    <div className="w-full md:w-auto flex flex-col items-center md:items-start">
+                        <div className="text-center md:text-left mb-4 md:mb-6"><span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(248,101,23,1)]">Record sale</span> <span className="font-extrabold md:text-[36px] text-[28px] text-[rgba(9,30,67,1)]"> report</span></div>
+                        <div className="w-full md:w-[564px] md:h-[82px] h-[200px] flex justify-center md:justify-start">
                             <Accordion
                                 type="single"
                                 collapsible
                                 defaultValue="shipping"
-                                className="max-w-lg"
+                                className="w-full max-w-lg"
                             >
                                 <AccordionItem value="shipping">
                                     <AccordionTrigger><div className="flex items-center space-x-2"><span className="text-[rgba(128,128,128,1)] text-[24px]"><BiSolidSelectMultiple /></span> <span>Daily order summary</span></div></AccordionTrigger>
@@ -76,7 +76,7 @@ export default function Record() {
 
 
                 </div>
-            
+
             </div>
         </>
     )

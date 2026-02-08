@@ -15,13 +15,13 @@ export default function Made() {
             <div className="flex flex-col justify-center items-center md:space-y-[80px] space-y-[35px]">
                 <div>
                     <h1 className="font-extrabold md:text-[36px] text-[28px] text-center">Made to solve everyday <br /> invoice problems</h1>
-                    <h1 className="text-center">Explore powerful features designed to easily know your <br />
+                    <h1 className="text-center md:mx-0 mx-4">Explore powerful features designed to easily know your <br />
                         sale and to save time, money,<br />
                         and effort .</h1>
                 </div>
 
 
-                <div className="md:flex space-x-[107px] space-y-[30px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div className="md:flex space-x-[107px] space-y-[30px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ml-4 md:ml-0">
                     <div className="md:space-y-[60px] space-y-[25px]">
                         <div className="flex items-center space-x-2 w-[332.31px]">
                             <FaLocationArrow className="text-[rgba(229,111,30,1)] w-[27.79px] h-[27.79px]" />

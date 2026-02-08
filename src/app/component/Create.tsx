@@ -19,7 +19,7 @@ export default function Create() {
                 <div className="flex flex-col md:flex-row justify-center items-center space-x-[58px] gap-y-10 px-4 md:px-0">
                     <div className="w-full md:w-auto flex flex-col items-center md:items-start">
                         <div className="text-center md:text-left mb-4 md:mb-6"><span className="font-extrabold md:text-[36px] text-[24px] text-[rgba(248,101,23,1)]">Create</span> <span className="font-extrabold md:text-[36px] text-[24px] text-[rgba(9,30,67,1)]"> Clean invoice</span></div>
-                        <div className="w-full md:w-[564px] md:h-[82px] flex justify-center md:justify-start ml-12 md:ml-0">
+                        <div className="w-full md:w-[564px] md:h-[82px] h-[200px] flex justify-center md:justify-start ml-12 md:ml-0 ">
                             <Accordion
                                 type="single"
                                 collapsible

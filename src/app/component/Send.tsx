@@ -20,7 +20,7 @@ export default function Send() {
                             <span className="font-extrabold md:text-[36px] text-[24px] text-[rgba(248,101,23,1)]">Send</span> 
                             <span className="font-extrabold md:text-[36px] text-[24px] text-[rgba(9,30,67,1)]"> Broadcast Message</span>
                         </div>
-                        <div className="w-full md:w-[564px] flex justify-center md:justify-start">
+                        <div className="w-full md:w-[564px] md:h-[82px] h-[200px] flex justify-center md:justify-start">
                             <Accordion
                                 type="single"
                                 collapsible
